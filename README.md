@@ -25,12 +25,11 @@ dec_server
  ciphertext and key. Thus, it returns plaintext again to dec_client.
 
 dec_client
- Similarly, this program will connect to dec_server and will ask it to decrypt ciphertext using a passed-in ciphertext and key, and otherwise performs exactly  
- like enc_client, and is runnable in the same ways. 
+ Similarly, this program will connect to dec_server and will ask it to decrypt ciphertext using a passed-in ciphertext and key, and otherwise performs exactly like enc_client, and is runnable in the same ways. 
 
 keygen
   This program creates a key file of specified length. The characters in the file generated will be any of the 27 allowed characters, generated using the  
-  standard   Unix randomization methods. 
+  standard Unix randomization methods. 
 
  The syntax for keygen is as follows:
 
