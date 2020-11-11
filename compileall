@@ -1,0 +1,7 @@
+#!/bin/bash
+
+gcc -o enc_server enc_server.c enc_dec.c otp_s.c
+gcc -o dec_server dec_server.c enc_dec.c otp_s.c
+gcc -o enc_client enc_client.c enc_dec.c otp.c
+gcc -o dec_client dec_client.c enc_dec.c otp.c
+gcc -o keygen keygen.c
