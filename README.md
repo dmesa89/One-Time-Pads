@@ -14,6 +14,7 @@ enc_client
  appropriately:
 
   $ enc_client myplaintext mykey 57171
+  
   $ enc_client myplaintext mykey 57171 > myciphertext
 
 If enc_client receives key or plaintext files with any bad characters in them, or the key file is shorter than the plaintext, then it terminates, send appropriate error text to stderr, and sets the exit value to 1. 
